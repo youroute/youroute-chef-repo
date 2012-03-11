@@ -1,0 +1,3 @@
+[submodule "cookbooks/youroute"]
+	path = cookbooks/youroute
+	url = git://github.com/youroute/youroute-cookbook.git
