@@ -48,15 +48,15 @@ GIT
 
 GIT
   remote: https://github.com/everm1nd/gem-config-cookbook
-  ref: master
-  sha: e4d1ef4c3a8c22d915795891c14136406c432c8f
+  ref: HEAD
+  sha: a8c27702810bfc47765d2f18bb2dcf0ab8835b22
   specs:
     gem-config (0.0.1)
 
 GIT
   remote: https://github.com/everm1nd/mysql
-  ref: master
-  sha: ec05347287b1f2fff687e047ac5bca2459a11132
+  ref: HEAD
+  sha: 5f04b86dee3a2bebd01a33604ce8d4b7330f656f
   specs:
     mysql (1.2.4)
       openssl (>= 0.0.0)
