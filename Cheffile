@@ -16,7 +16,7 @@ cookbook "oh-my-zsh", :git => 'https://github.com/everm1nd/oh-my-zsh'
 cookbook "ruby_build"
 cookbook "rbenv", :git => 'https://github.com/everm1nd/rbenv-cookbook'
 cookbook "gem-config", :git => 'https://github.com/everm1nd/gem-config-cookbook'
-cookbook "mysql", :git => "https://github.com/everm1nd/mysql"
+cookbook "mysql", :git => "https://github.com/cookbooks/mysql"
 cookbook "database", :git => "https://github.com/everm1nd/database-cookbook"
 cookbook "gitlabhq", :git => "https://github.com/everm1nd/chef-gitlabhq"
 cookbook "gitolite", :git => "https://github.com/antoinerg/chef-gitolite"
