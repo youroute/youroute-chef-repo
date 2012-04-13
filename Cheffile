@@ -9,17 +9,17 @@ cookbook "apt"
 cookbook "locale-gen"
 cookbook "locale"
 cookbook "git"
-cookbook "zsh", :git => 'https://github.com/everm1nd/zsh'
-cookbook "oh-my-zsh", :git => 'https://github.com/everm1nd/oh-my-zsh'
+cookbook "zsh", :git => 'https://github.com/everm1nd/zsh', :ref => 'HEAD'
+cookbook "oh-my-zsh", :git => 'https://github.com/everm1nd/oh-my-zsh', :ref => 'HEAD'
 # cookbook "oh-my-zsh", :git => 'https://github.com/cookbooks/oh-my-zsh'
 # cookbook "oh-my-zsh", :git => 'https://github.com/pyrat/chef-oh-my-zsh'
 cookbook "ruby_build"
-cookbook "rbenv", :git => 'https://github.com/everm1nd/rbenv-cookbook'
+cookbook "rbenv", :git => 'https://github.com/everm1nd/rbenv-cookbook', :ref => 'HEAD'
 cookbook "gem-config", :git => 'https://github.com/everm1nd/gem-config-cookbook', :ref => 'HEAD'
 cookbook "mysql", :git => "https://github.com/everm1nd/mysql", :ref => 'HEAD'
-cookbook "database", :git => "https://github.com/everm1nd/database-cookbook"
-cookbook "gitlabhq", :git => "https://github.com/everm1nd/chef-gitlabhq"
-cookbook "gitolite", :git => "https://github.com/antoinerg/chef-gitolite"
+cookbook "database", :git => "https://github.com/everm1nd/database-cookbook", :ref => 'HEAD'
+cookbook "gitlabhq", :git => "https://github.com/everm1nd/chef-gitlabhq", :ref => 'HEAD'
+cookbook "gitolite", :git => "https://github.com/antoinerg/chef-gitolite", :ref => 'HEAD'
 cookbook "build-essential"
 # cookbook "postgresql"
 

@@ -20,7 +20,7 @@ SITE
 
 GIT
   remote: https://github.com/antoinerg/chef-gitolite
-  ref: master
+  ref: HEAD
   sha: 41ec2a34e4f0a6bfb473a543d00c95603c74b57e
   specs:
     gitolite (0.0.1)
@@ -28,8 +28,8 @@ GIT
 
 GIT
   remote: https://github.com/everm1nd/chef-gitlabhq
-  ref: master
-  sha: faeddea27d00f06a20ecba29060d565b33089fc0
+  ref: HEAD
+  sha: c0a8b85183c89540b7efa73d30221fb00bdf3fd8
   specs:
     gitlabhq (0.0.1)
       git (>= 0.0.0)
@@ -37,7 +37,7 @@ GIT
 
 GIT
   remote: https://github.com/everm1nd/database-cookbook
-  ref: master
+  ref: HEAD
   sha: ae7c21c0587c845b2861027efee99757739d1904
   specs:
     database (1.1.0)
@@ -63,7 +63,7 @@ GIT
 
 GIT
   remote: https://github.com/everm1nd/oh-my-zsh
-  ref: master
+  ref: HEAD
   sha: 53805ed23c92da4d459f454cbf62e66ddd029626
   specs:
     oh-my-zsh (0.4.2)
@@ -73,15 +73,15 @@ GIT
 
 GIT
   remote: https://github.com/everm1nd/rbenv-cookbook
-  ref: master
-  sha: 08f48bbc8767420d6569fc6c6667c84a551eac55
+  ref: HEAD
+  sha: a31d9bc0a24b2d0c6dfbb090769d538d199101ad
   specs:
     rbenv (1.0.0)
       git (>= 0.0.0)
 
 GIT
   remote: https://github.com/everm1nd/zsh
-  ref: master
+  ref: HEAD
   sha: 6a61da64dca30dbb96ba183bc62b2a414641a7f1
   specs:
     zsh (0.7.1)
