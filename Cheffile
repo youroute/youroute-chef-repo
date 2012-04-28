@@ -21,6 +21,8 @@ cookbook "database", :git => "https://github.com/everm1nd/database-cookbook", :r
 cookbook "gitlabhq", :git => "https://github.com/everm1nd/chef-gitlabhq", :ref => 'HEAD'
 cookbook "gitolite", :git => "https://github.com/antoinerg/chef-gitolite", :ref => 'HEAD'
 cookbook "build-essential"
+cookbook "runit"
+cookbook "nginx"
 # cookbook "postgresql"
 
 # cookbook 'apache2', '>= 1.0.0'
