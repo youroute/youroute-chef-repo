@@ -1,7 +1,7 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
-    apt (1.3.2)
+    apt (1.4.0)
     aws (0.99.1)
     bluepill (1.0.4)
     build-essential (1.0.0)
@@ -15,10 +15,11 @@ SITE
       build-essential (>= 0.0.0)
       runit (>= 0.0.0)
     openssl (1.0.0)
-    postgresql (0.99.2)
+    postgresql (0.99.4)
       openssl (>= 0.0.0)
     ruby_build (0.6.0)
-    runit (0.14.2)
+    runit (0.15.0)
+    timezone (0.0.1)
     user (0.2.10)
     xfs (1.0.0)
     yum (0.5.2)
@@ -34,7 +35,7 @@ GIT
 GIT
   remote: https://github.com/everm1nd/chef-gitlabhq
   ref: HEAD
-  sha: c0a8b85183c89540b7efa73d30221fb00bdf3fd8
+  sha: 610cd34bcce8efa83cc7c49b9275e776d26a8eee
   specs:
     gitlabhq (0.0.1)
       git (>= 0.0.0)
@@ -61,7 +62,7 @@ GIT
 GIT
   remote: https://github.com/everm1nd/mysql
   ref: HEAD
-  sha: 5f04b86dee3a2bebd01a33604ce8d4b7330f656f
+  sha: 6c056ae1fe62d373c947aa8b79207d33f96f660e
   specs:
     mysql (1.2.4)
       openssl (>= 0.0.0)
@@ -107,5 +108,6 @@ DEPENDENCIES
   rbenv (>= 0)
   ruby_build (>= 0)
   runit (>= 0)
+  timezone (>= 0)
   zsh (>= 0)
 

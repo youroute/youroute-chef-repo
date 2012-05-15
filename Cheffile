@@ -23,6 +23,7 @@ cookbook "gitolite", :git => "https://github.com/antoinerg/chef-gitolite", :ref 
 cookbook "build-essential"
 cookbook "runit"
 cookbook "nginx"
+cookbook "timezone"
 # cookbook "postgresql"
 
 # cookbook 'apache2', '>= 1.0.0'
