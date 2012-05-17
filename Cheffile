@@ -24,7 +24,7 @@ cookbook "build-essential"
 cookbook "runit"
 cookbook "nginx"
 cookbook "timezone"
-cookbook "mosh"
+cookbook "mosh", :git => "https://github.com/everm1nd/mosh-cookbook", :ref => 'HEAD'
 # cookbook "postgresql"
 
 # cookbook 'apache2', '>= 1.0.0'

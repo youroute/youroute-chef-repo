@@ -10,8 +10,6 @@ SITE
       yum (>= 0.0.0)
     locale (0.0.1)
     locale-gen (0.0.1)
-    mosh (0.3.0)
-      apt (>= 0.0.0)
     nginx (0.100.2)
       bluepill (>= 0.0.0)
       build-essential (>= 0.0.0)
@@ -60,6 +58,14 @@ GIT
   sha: a8c27702810bfc47765d2f18bb2dcf0ab8835b22
   specs:
     gem-config (0.0.1)
+
+GIT
+  remote: https://github.com/everm1nd/mosh-cookbook
+  ref: HEAD
+  sha: 031a89bb7efdee08b531221dbaaca56645f45111
+  specs:
+    mosh (0.3.0)
+      apt (>= 0.0.0)
 
 GIT
   remote: https://github.com/everm1nd/mysql
