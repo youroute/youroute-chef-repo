@@ -20,6 +20,7 @@ cookbook "mysql", :git => "https://github.com/everm1nd/mysql", :ref => 'HEAD'
 cookbook "database", :git => "https://github.com/everm1nd/database-cookbook", :ref => 'HEAD'
 cookbook "gitlabhq", :git => "https://github.com/everm1nd/chef-gitlabhq", :ref => 'HEAD'
 cookbook "gitolite", :git => "https://github.com/antoinerg/chef-gitolite", :ref => 'HEAD'
+cookbook "logrotate"
 cookbook "build-essential"
 cookbook "runit"
 cookbook "nginx"
