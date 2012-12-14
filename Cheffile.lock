@@ -2,6 +2,7 @@ SITE
   remote: http://community.opscode.com/api/v1
   specs:
     apt (1.4.0)
+    ark (0.0.16)
     aws (0.99.1)
     bluepill (1.0.4)
     build-essential (1.0.0)
@@ -41,6 +42,14 @@ GIT
     gitlabhq (0.0.1)
       git (>= 0.0.0)
       gitolite (>= 0.0.0)
+
+GIT
+  remote: https://github.com/everm1nd/cookbook-elasticsearch
+  ref: HEAD
+  sha: 94d182681e6856497a0665c38ce4a5bbbd7d3bda
+  specs:
+    elasticsearch (0.0.4)
+      ark (>= 0.0.0)
 
 GIT
   remote: https://github.com/everm1nd/database-cookbook
@@ -105,6 +114,7 @@ DEPENDENCIES
   apt (>= 0)
   build-essential (>= 0)
   database (>= 0)
+  elasticsearch (>= 0)
   gem-config (>= 0)
   git (>= 0)
   gitlabhq (>= 0)

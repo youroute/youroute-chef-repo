@@ -1,9 +1,6 @@
 #!/usr/bin/env ruby
-#^syntax detection
 
 site 'http://community.opscode.com/api/v1'
-
-# cookbook 'chef-client'
 
 cookbook "apt"
 cookbook "locale-gen"
@@ -11,8 +8,6 @@ cookbook "locale"
 cookbook "git"
 cookbook "zsh", :git => 'https://github.com/everm1nd/zsh', :ref => 'HEAD'
 cookbook "oh-my-zsh", :git => 'https://github.com/everm1nd/oh-my-zsh', :ref => 'HEAD'
-# cookbook "oh-my-zsh", :git => 'https://github.com/cookbooks/oh-my-zsh'
-# cookbook "oh-my-zsh", :git => 'https://github.com/pyrat/chef-oh-my-zsh'
 cookbook "ruby_build"
 cookbook "rbenv", :git => 'https://github.com/everm1nd/rbenv-cookbook', :ref => 'HEAD'
 cookbook "gem-config", :git => 'https://github.com/everm1nd/gem-config-cookbook', :ref => 'HEAD'
@@ -26,13 +21,4 @@ cookbook "runit"
 cookbook "nginx"
 cookbook "timezone"
 cookbook "mosh", :git => "https://github.com/everm1nd/mosh-cookbook", :ref => 'HEAD'
-# cookbook "postgresql"
-
-# cookbook 'apache2', '>= 1.0.0'
-
-# cookbook 'rvm',
-#   :git => 'https://github.com/fnichol/chef-rvm'
-
-# cookbook 'postgresql',
-#   :git => 'https://github.com/findsyou/cookbooks',
-#   :ref => 'postgresql-improvements'
+cookbook "elasticsearch", :git => "https://github.com/everm1nd/cookbook-elasticsearch", :ref => 'HEAD'
