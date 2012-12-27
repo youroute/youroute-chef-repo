@@ -46,7 +46,7 @@ GIT
 GIT
   remote: https://github.com/everm1nd/cookbook-elasticsearch
   ref: HEAD
-  sha: 3587f85108db476940c8c0233a21c68240105dda
+  sha: 711591f1550169e910fe9a8cb5eaaa180341d5de
   specs:
     elasticsearch (0.0.4)
       ark (>= 0.0.0)
