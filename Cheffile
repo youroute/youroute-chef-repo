@@ -2,23 +2,25 @@
 
 site 'http://community.opscode.com/api/v1'
 
-cookbook "apt"
-cookbook "locale-gen"
-cookbook "locale"
-cookbook "git"
-cookbook "zsh", :git => 'https://github.com/everm1nd/zsh', :ref => 'HEAD'
-cookbook "oh-my-zsh", :git => 'https://github.com/everm1nd/oh-my-zsh', :ref => 'HEAD'
-cookbook "ruby_build"
-cookbook "rbenv", :git => 'https://github.com/everm1nd/rbenv-cookbook', :ref => 'HEAD'
-cookbook "gem-config", :git => 'https://github.com/everm1nd/gem-config-cookbook', :ref => 'HEAD'
-cookbook "mysql", :git => "https://github.com/everm1nd/mysql", :ref => 'HEAD'
-cookbook "database", :git => "https://github.com/everm1nd/database-cookbook", :ref => 'HEAD'
-cookbook "gitlabhq", :git => "https://github.com/everm1nd/chef-gitlabhq", :ref => 'HEAD'
-cookbook "gitolite", :git => "https://github.com/antoinerg/chef-gitolite", :ref => 'HEAD'
-cookbook "logrotate"
-cookbook "build-essential"
-cookbook "runit"
-cookbook "nginx"
-cookbook "timezone"
-cookbook "mosh", :git => "https://github.com/everm1nd/mosh-cookbook", :ref => 'HEAD'
-cookbook "elasticsearch", :git => "https://github.com/everm1nd/cookbook-elasticsearch", :ref => 'HEAD'
+cookbook 'apt'
+cookbook 'locale-gen'
+cookbook 'locale'
+cookbook 'git'
+cookbook 'users' # добавить пользователей через databag
+cookbook 'zsh' # указать каким пользователям нужен zsh в databag
+cookbook 'oh-my-zsh'
+cookbook 'ruby_build'
+cookbook 'rbenv', :git => 'https://github.com/everm1nd/rbenv-cookbook', :ref => 'HEAD' # кажется придется оставить
+cookbook 'gemrc'
+cookbook 'mysql'
+### !!! использовать рецепт mysql::ruby
+cookbook 'database'
+cookbook 'logrotate'
+cookbook 'build-essential'
+cookbook 'runit', '<= 0.16.2'
+cookbook 'nginx'
+cookbook 'timezone'
+cookbook 'mosh'
+cookbook 'elasticsearch'
+
+cookbook 'youroute', :git => 'https://github.com/youroute/youroute-cookbook'
