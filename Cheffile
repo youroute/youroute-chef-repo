@@ -3,6 +3,7 @@
 site 'http://community.opscode.com/api/v1'
 
 cookbook 'apt'
+cookbook 'sudo'
 cookbook 'locale-gen'
 cookbook 'locale'
 cookbook 'git'
@@ -13,7 +14,6 @@ cookbook 'ruby_build'
 cookbook 'rbenv', :git => 'https://github.com/everm1nd/rbenv-cookbook', :ref => 'HEAD' # кажется придется оставить
 cookbook 'gemrc'
 cookbook 'mysql'
-### !!! использовать рецепт mysql::ruby
 cookbook 'database'
 cookbook 'logrotate'
 cookbook 'build-essential'
