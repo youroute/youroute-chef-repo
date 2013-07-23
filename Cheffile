@@ -21,6 +21,7 @@ cookbook 'runit', '<= 0.16.2'
 cookbook 'nginx'
 cookbook 'timezone'
 cookbook 'mosh'
+cookbook 'java' # dependency of elasticsearch
 cookbook 'elasticsearch'
 
 cookbook 'youroute', :git => 'https://github.com/youroute/youroute-cookbook'
