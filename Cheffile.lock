@@ -59,12 +59,11 @@ SITE
     zsh (1.0.0)
 
 GIT
-  remote: https://github.com/everm1nd/rbenv-cookbook
-  ref: HEAD
-  sha: a31d9bc0a24b2d0c6dfbb090769d538d199101ad
+  remote: https://github.com/fnichol/chef-rbenv
+  ref: master
+  sha: 9afb4e5da2e6212504a12de3bbbd410cd96100f6
   specs:
-    rbenv (1.0.0)
-      git (>= 0.0.0)
+    rbenv (0.7.3)
 
 GIT
   remote: https://github.com/youroute/youroute-cookbook

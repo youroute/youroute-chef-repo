@@ -11,7 +11,7 @@ cookbook 'users' # добавить пользователей через databa
 cookbook 'zsh' # указать каким пользователям нужен zsh в databag
 cookbook 'oh-my-zsh'
 cookbook 'ruby_build'
-cookbook 'rbenv', :git => 'https://github.com/everm1nd/rbenv-cookbook', :ref => 'HEAD' # кажется придется оставить
+cookbook 'rbenv', :github => 'fnichol/chef-rbenv'
 cookbook 'gemrc'
 cookbook 'mysql'
 cookbook 'database'
